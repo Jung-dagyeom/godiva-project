@@ -1,0 +1,158 @@
+@charset "utf-8";
+@media (max-width: 768px) {
+    header .inner {
+        height: 95px;
+        position: relative;
+    }
+    header .until, .menu-row {
+        display: none;
+    }
+    header:before {
+        content: '';
+        width: 30px;
+        height: 36px;
+        background: url(../image/gnb/icon-gnb-ham.png);
+        position: absolute;
+        top: 20%;
+        left: 3%;
+        color: #fff;
+        cursor: pointer;
+    }
+    header:after {
+        content: '';
+        width: 35px;
+        height: 40px;
+        background: url(../image/gnb/icon-gnb-search.png);
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        color: #fff;
+        cursor: pointer;
+    }
+    .delivery-msg a {
+        font-size: 12px;
+    }
+    .main-banner {
+        display: none;
+    }    
+    .sub-banner-col_1 {
+        margin-top: 210px;
+    }
+    .sub-banner-col_1 .sub-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: var(--primary-color);
+    }
+    .sub-banner-col_1 .sub-title-p {
+        display: none;
+    }
+    .banner-list {
+    display: block;
+    }
+    .banner-list ul li {
+        width: 100%;
+        padding: 7.5px 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .banner-list ul li:hover {
+        transform: scale(1);
+    }
+    .banner-list ul li a {
+        position: relative;
+        width: 100%;
+        text-align: left;
+    }
+    .banner-list ul li a img {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+    }
+    .banner-list ul li .desc {
+        vertical-align: top;
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        margin-left: 47%;
+        text-align: center;
+        padding-top: 20%;
+    }
+    .banner-list ul li .desc strong {
+        width: 100%;
+        font-size: 14px;
+    }
+    .banner-list ul li .desc p {
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 16px;
+        height: 3em;
+        margin: 6px 0 13px;
+        text-overflow: ellipsis;
+        color: #969696;
+    }
+    .sub-banner-col_2 {
+        padding: 20px;
+    }
+    .ranges-list-in:hover p {
+        display: none;
+    }
+    .ranges-list-in:hover strong {
+        font-size: 20px;
+    }
+    .guide-box-in strong {
+        font-size: 15px;
+    }
+    .sub-banner-col_3 .sub-title {
+        font-size: 20px;
+    }
+    .sub-banner-col_3 .sub-title-p {
+        font-size: 15px;
+        text-decoration: underline 5px solid pink;
+    }
+    .sns_box-1, .sns_box-2,  .sns_box-3 {
+        display: block;
+        width: 100%;
+    }
+    .text {
+        display: none;
+    }
+    footer .inner {
+        padding-top: 15px;
+    }
+    footer h1 img {
+        display: none;
+    }
+    .f-column {
+        display: block;
+    }
+    .f-column ul li {
+        display: none;
+    }
+    .f-column ul li:nth-child(1){
+        display: block;
+        width: 100%;
+        line-height: 100%;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .f-column ul li:nth-child(1):before {
+        content: '';
+        background: url(../image/footer/bg-footer-m.png);
+        right: 0;
+        display: block;
+        width: 15px;
+        height: 16px;
+        position: absolute;
+        cursor: pointer;
+    }
+    .footer-newsletter {
+        padding: 0 20px;
+    }
+    .footer-add-box .add-inner {
+        padding: 0 20px;
+    }
+    .footer-add-box address {
+        font-size: 5px;
+    }
+}

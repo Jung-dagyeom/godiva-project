@@ -1,0 +1,37 @@
+@charset "utf-8";
+:root {
+    --primary-color:#3b1a0f;
+    --color-yellow:#ceb372;
+    --font-color-black:#141414;
+    --font-color-gray:#646464;
+}
+body {
+    font-family: 'Open Sans',; 
+    line-height: 1.58571;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.view:before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    background: url(../image/gnb/bg-header.png) 0 0 no-repeat;
+}
+.cart:before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    background: url(../image/gnb/bg-header.png) 0 0 no-repeat;
+}
+.toggle:after {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+    background: url(../image/gnb/bg-header.png) 0 0 no-repeat;
+}
